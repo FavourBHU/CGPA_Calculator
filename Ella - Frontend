@@ -1,0 +1,10 @@
+# labels to display CGPA result and class - Ella
+cgpa_var = StringVar()
+result_label = Label(window, textvariable=cgpa_var)
+result_label.grid(column=0, row=len(course_data) + 2, columnspan=2, pady=10)
+
+class_var = StringVar()
+class_label = Label(window, textvariable=class_var)
+class_label.grid(column=0, row=len(course_data) + 3, columnspan=2, pady=10)
+
+window.mainloop()
