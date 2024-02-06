@@ -1,0 +1,17 @@
+# Entry widgets for grades - Stephanie
+
+for course, credit_units in course_data.items():
+    label_text = f"{course} {credit_units} credit unit(s)"
+    label = Label(window, text=label_text, fg="green")
+    label.grid(column=0, row=list(course_data.keys()).index(course) + 1)
+
+    entry = Entry(window, textvariable=grade_vars[course])
+    entry.grid(column=1, row=list(course_data.keys()).index(course) + 1)
+
+# Button to calculate CGPA
+calculate_button = Button(window, text="Click here to Calculate Your CGPA!", command=calculate_cgpa, fg="red")
+calculate_button.grid(column=0, row=len(course_data) + 1, columnspan=2, pady=10)
+
+# Button to exit
+exit_button = Button(window, text="Click here to Exit!", command=window.destroy, fg="red")
+exit_button.grid(column=0, row=len(course_data) + 5, columnspan=2, pady=10 )
