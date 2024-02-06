@@ -1,0 +1,14 @@
+# Course data - Esther
+course_data = {
+    "BCMP103 [Introduction to CMP Application, eLearning and Bingham LMS]": 2,
+    "BCSC103 [Hardware and Software Maintenance]": 2,
+    "COS101 [Introduction to Computer Sciences]": 3,
+    "GST111 [Communication in English]": 2,
+    "MTH101 [Elementary Mathematics I]": 2,
+    "PHY101 [General Physics I]": 2,
+    "PHY107 [General Physics Laboratory I]": 1,
+    "STA111 [Probability I]": 2,
+}
+
+# StringVars to hold grades
+grade_vars = {course: StringVar() for course in course_data}
