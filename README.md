@@ -70,10 +70,13 @@ Stephanie Chinaza Anyanwu - BHU/23/04/05/0038 - 08074409307 &
 Victor Adeyemo – BHU/23/04/09/0005 – 08051288810
 
 # FLOWCHART
-[Final Flowchart.pdf](https://github.com/FavourBHU/CGPA_Calculator/files/14185030/Final.Flowchart.pdf)
+[Final Flowchart](https://github.com/FavourBHU/CGPA_Calculator/files/14185030/Final.Flowchart.pdf)
 
 # SNAPSHOTS
 [App Snapshot](https://github.com/FavourBHU/CGPA_Calculator/assets/150298243/6cb7535d-707f-42d7-8081-621fbbf6988f)
 [Snapshot 3](https://github.com/FavourBHU/CGPA_Calculator/assets/150298243/cbd1ca42-1c49-4667-8f69-115f6e8ad675)
 [Snapshot 2](https://github.com/FavourBHU/CGPA_Calculator/assets/150298243/e97d03d1-14f1-4f88-933e-4863457d3902)
 [Snapshot 1](https://github.com/FavourBHU/CGPA_Calculator/assets/150298243/a4427ace-6cec-42bc-8959-253027a7bc04)
+
+# COMPLETE CODE
+[NACOS CGPA CALCULATOR](https://gist.github.com/FavourBHU/76b202db6a4c1bfa6c1c9eebb4ff7e7f)
